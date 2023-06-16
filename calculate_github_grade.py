@@ -1,4 +1,12 @@
-# calculate the grade on github according to the "github readme stats"
+#!/usr/bin/env python3
+# -*- coding:utf-8 -*-
+
+"""
+Calculate the grade on github according to the github-readme-stats
+https://github-readme-stats.vercel.app/api?username=GITHUB_USERNAME&count_private=false&show_icons=true&theme=chartreuse-dark&PAT_1
+eg: https://github-readme-stats.vercel.app/api?username=madhav-mknc&count_private=false&show_icons=true&theme=chartreuse-dark&PAT_1
+algorithm: https://github.com/anuraghazra/github-readme-stats/blob/master/src/calculateRank.js
+"""
 
 def exponential_cdf(x):
     return 1-(2**(-x))
